@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="330" viewBox="0 0 830 330" role="img" aria-label="Zaid Al-Sabbagh, Lead Software Engineer at BrandCode. Laravel, Inertia, React and TypeScript platforms in English and Arabic.">
+<style>
+text{font-family:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:14px}
+.l{opacity:0;animation:in .01s forwards}
+@keyframes in{to{opacity:1}}
+.cur{animation:in .01s forwards,blink 1s steps(1) 3.3s infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.l,.cur{opacity:1;animation:none}}
+</style>
+<rect width="830" height="330" rx="10" fill="#0a0a0b" stroke="#232326"/>
+<path d="M10 0.5h810a9.5 9.5 0 0 1 9.5 9.5v24H0.5V10A9.5 9.5 0 0 1 10 0.5z" fill="#161618"/>
+<circle cx="22" cy="17" r="6" fill="#ff6b5b"/><circle cx="42" cy="17" r="6" fill="#ff3b54"/><circle cx="62" cy="17" r="6" fill="#6fcf7f"/>
+<text x="415" y="22" text-anchor="middle" style="font-size:12px" fill="#8a8a8f">zaid@amman: ~</text>
+<text class="l" style="animation-delay:0.2s" x="24" y="70"><tspan fill="#ff3b54">zaid@amman</tspan><tspan fill="#8a8a8f">:~$ </tspan><tspan fill="#f2efe9">whoami</tspan></text>
+<text class="l" style="animation-delay:0.6s" x="24" y="94"><tspan fill="#f2efe9" font-weight="600">Zaid Al-Sabbagh · Lead Software Engineer @ BrandCode</tspan></text>
+<text class="l" style="animation-delay:1.1s" x="24" y="130"><tspan fill="#ff3b54">zaid@amman</tspan><tspan fill="#8a8a8f">:~$ </tspan><tspan fill="#f2efe9">cat focus.txt</tspan></text>
+<text class="l" style="animation-delay:1.5s" x="24" y="154"><tspan fill="#c9c4bc">Laravel, Inertia, React and TypeScript platforms in English and Arabic.</tspan></text>
+<text class="l" style="animation-delay:1.7s" x="24" y="176"><tspan fill="#c9c4bc">Designed into code, built, deployed and maintained end to end.</tspan></text>
+<text class="l" style="animation-delay:1.9s" x="24" y="198"><tspan fill="#c9c4bc">Second track: LLM evaluation, RAG and rubric design.</tspan></text>
+<text class="l" style="animation-delay:2.4s" x="24" y="234"><tspan fill="#ff3b54">zaid@amman</tspan><tspan fill="#8a8a8f">:~$ </tspan><tspan fill="#f2efe9">ls ~/shipped</tspan></text>
+<text class="l" style="animation-delay:2.8s" x="24" y="258"><tspan fill="#ff3b54">bcodepr.com  lucent-intl.com  canintlco.com  retab.com.sa  skyamman.com</tspan></text>
+<text class="l" style="animation-delay:2.9s" x="24" y="280"><tspan fill="#ff3b54">nuor-steel/</tspan><tspan fill="#8a8a8f">  hardrock/ (archived)</tspan></text>
+<text class="l" style="animation-delay:3.3s" x="24" y="314"><tspan fill="#ff3b54">zaid@amman</tspan><tspan fill="#8a8a8f">:~$ </tspan></text>
+<rect class="l cur" style="animation-delay:3.3s" x="128" y="301" width="9" height="17" fill="#ff3b54"/>
+</svg>

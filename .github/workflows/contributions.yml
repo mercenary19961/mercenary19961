@@ -1,0 +1,34 @@
+name: Redraw contributions
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # every night, 06:17 in Amman
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Draw assets/contributions.svg
+        run: python scripts/contrib.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USER: ${{ github.repository_owner }}
+      - name: Commit if it changed
+        run: |
+          if git diff --quiet -- assets/contributions.svg; then
+            echo "No change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contributions.svg
+          git commit -m "Redraw contributions"
+          git push
