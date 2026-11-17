@@ -23,4 +23,4 @@ Case studies and walkthrough videos: **[brandcode-showcase](https://github.com/m
 
 <img src="assets/h-contact.svg" width="100%" alt="echo $CONTACT" />
 
-[linkedin](https://www.linkedin.com/in/zaid-alsabbagh) · [portfolio](https://professional-portfolio-v2-dis2.vercel.app) · [showcase](https://github.com/mercenary19961/showcase) · [sabbaghzaid88@gmail.com](mailto:sabbaghzaid88@gmail.com)
+[linkedin](https://www.linkedin.com/in/zaid-sabbagh-6a7287227) · [portfolio](https://professional-portfolio-v2-dis2.vercel.app) · [showcase](https://github.com/mercenary19961/showcase) · [sabbaghzaid88@gmail.com](mailto:sabbaghzaid88@gmail.com)
